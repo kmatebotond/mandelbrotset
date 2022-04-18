@@ -63,8 +63,8 @@ public abstract class Set {
                 if (grid[i][j] != iterationMaxValue) {
                     double c = grid[i][j] * (255.0 / iterationMaxValue);
                     color[0] = c;
-                    color[1] = c / 2;
-                    color[2] = c / 4;
+                    color[1] = c;
+                    color[2] = 0;
                 }
                 raster.setPixel(i, j, color);
             }
