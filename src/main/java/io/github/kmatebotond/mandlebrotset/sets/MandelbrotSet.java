@@ -28,6 +28,6 @@ public class MandelbrotSet extends Set {
 
     public static void main(String[] args) throws IOException {
         Set mandelbrotSet = new MandelbrotSet(-2.5, 1, -1.75, 1.75, 200, 800);
-        mandelbrotSet.writeImage(new File("mandelbrot_set.png"));
+        mandelbrotSet.writeImage(new File("mandelbrotset.png"));
     }
 }
